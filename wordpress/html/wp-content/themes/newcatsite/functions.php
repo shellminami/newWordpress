@@ -25,6 +25,22 @@ function breadcrumb() {
   EOM;
   }
 
+  if(is_page( )) {
+    $str .=<<< EOM
+    <div class="breadcrumb-privacy ">
+        <ul class="breadcrumb-list">
+          <li class="breadcrumb-item">
+            <a class="breadcrumb-link" href="#">ホーム</a>
+          </li>
+          <li class="breadcrumb-item">
+            <a class="breadcrumb-link--current" href="#">プライバシーポリシー</a>
+          </li>
+        </ul>
+      </div>
+    EOM;
+  }
+
+
   echo $str;
 }
 add_action( 'after_setup_theme', 'register_menu' );

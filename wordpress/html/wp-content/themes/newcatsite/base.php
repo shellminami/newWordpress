@@ -3,7 +3,6 @@
 <?php get_template_part('head'); ?>
 <body>
   <?php get_template_part('header'); ?>
-  <!-- <?php get_header( ); ?> -->
 
   <main class="main">
     <!-- breadcrumb -->

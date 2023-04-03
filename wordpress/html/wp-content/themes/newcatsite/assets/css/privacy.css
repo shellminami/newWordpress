@@ -1,0 +1,36 @@
+
+/* breadcrumb */
+.breadcrumb-privacy {
+  padding: 10px 0 56px;
+}
+
+/* heading */
+.heading-title__txt {
+  line-height: 1.75;
+  padding-top: 40px;
+}
+.heading-title__name {
+  text-align: center;
+  line-height: 1.5;
+}
+.privacy-title {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.5;
+  border-bottom: 2px solid #CEB967;
+  margin-bottom: 40px;
+}
+.privacy-txt {
+  line-height: 1.75;
+}
+.spacer {
+  margin-bottom: 100px;
+}
+
+.privacy-txt__list {
+  list-style-type: auto;
+  list-style-position: inside;
+}
+.privacy-txt__item:first-child {
+  margin-bottom: 30px;
+}

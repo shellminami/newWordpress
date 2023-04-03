@@ -12,6 +12,8 @@
     
     if(is_home( )) {
       $stylesheet_link = "/assets/css/blog.css";
+    } elseif (is_page()){
+      $stylesheet_link = "/assets/css/page.css";
     } else {
 
     }
