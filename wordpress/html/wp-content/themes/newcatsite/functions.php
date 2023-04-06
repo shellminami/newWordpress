@@ -1,9 +1,5 @@
 <?php
 
-// function custom_theme_setup() {
-//   add_theme_support( 'post-thumbnails' );
-// }
-// add_action( 'after_setup_theme', 'custom_theme_setup' );
 add_theme_support( 'post-thumnails');
 
 function breadcrumb() {
@@ -48,3 +44,8 @@ function register_menu() {
   register_nav_menu( 'primary', __( 'Primary Menu', 'theme-slug' ) );
 }
 
+
+// wp_enqueue_style( $handle, $src, $deps, $ver, $media ); 
+// wp_enqueue_style('name_style', get_template_directory_uri() . '/assets/css/reset.css','/assets/css/common.css', "/assets/css/page.css",array(), '1.0.0', 'screen and (max-width: 768px)');
+
+// wp_enqueue_style('html5blank', false, array(), false, 'all and (max-width: 768px)');

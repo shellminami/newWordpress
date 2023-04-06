@@ -2,6 +2,13 @@
 .breadcrumb-privacy {
   padding: 10px 0 56px;
 }
+@media screen and (min-width: 768px) {
+  .breadcrumb-privacy {
+    padding: 10px 0 73px;
+    max-width: 1084px;
+    margin: auto;
+  }
+}
 
 .page-template-default h2 {
   font-size: 30px;
@@ -15,6 +22,11 @@
 .page-template-default p {
   line-height: 1.75;
   margin-bottom: 30px;
+}
+@media screen and (max-width: 768px) {
+  .page-template-default p {
+    text-align: center;
+  }
 }
 .page-template-default ol {
   list-style-type: auto;
@@ -30,9 +42,14 @@
 .page-content {
   background: #F5EFD7;
   position: relative;
-      margin: 0 calc(50% - 50vw);
-      overflow: hidden;
-      padding: 40px 20px;
+  margin: 0 calc(50% - 50vw);
+  overflow: hidden;
+  padding: 40px 20px;
+}
+@media screen and (max-width: 768px) {
+  .page-content {
+    max-width: 800px;
+  }
 }
 /* contact */
 .page-template-default h3 {
@@ -43,11 +60,18 @@
   line-height: 1.25;
 
 }
-/* <dl>
-  <dt>販売行者</dt>
-  <dd>L’atelier Queue</dd>
-</dl> */
 
 .page-template-default dt {
-  background: #F5EFD7
+  background: #F5EFD7;
+  font-weight: bold;
+
+}
+
+/* 表 */
+.page-template-default .page-content dl{
+  display: flex;
+  flex-wrap: wrap;
+}
+.page-template-default .page-content {
+
 }

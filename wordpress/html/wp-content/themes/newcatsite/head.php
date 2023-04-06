@@ -6,16 +6,15 @@
   </title>
   <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/reset.css">
   <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/common.css">
+  
   <?php
     $template_link = get_stylesheet_directory_uri( );
     $stylesheet_link = "";
     
     if(is_home( )) {
       $stylesheet_link = "/assets/css/blog.css";
-    } elseif (is_page()){
+    } elseif (is_page()) {
       $stylesheet_link = "/assets/css/page.css";
-    } else {
-
     }
     echo "<link rel=\"stylesheet\" href=\"${template_link}/${stylesheet_link}\">";
   
